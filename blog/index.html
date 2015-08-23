@@ -16,6 +16,14 @@ layout: default
         </h2>
       </li>
     {% endfor %}
+
+    layout: {{site}}
+
+    {% for layout in site.layouts %}
+      <p>
+        {{layout}} -
+      </p>
+    {% endfor %}
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
