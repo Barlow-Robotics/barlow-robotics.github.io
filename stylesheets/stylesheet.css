@@ -1,5 +1,7 @@
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  background-color: #000000;
+}
 
 body {
   padding: 0;
@@ -162,7 +164,7 @@ a {
   overflow: initial;
   line-height: inherit;
   word-wrap: normal;
-  background-color: transparent;
+  background-color: #000000;
   border: 0; }
   .main-content pre code:before, .main-content pre code:after, .main-content pre tt:before, .main-content pre tt:after {
     content: normal; }
